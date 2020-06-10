@@ -1,0 +1,211 @@
+/* ĐÂY LÀ PHẦN MENUBAR */
+#menu-bar .navbar-nav{
+	margin-left: 193px;
+	margin-top: 15px;
+}
+#menu-bar .navbar-right{
+	margin-right: -100px;
+	margin-top: -50px;
+}
+#menu-bar .navbar-default{
+	border: none;
+	height: 80px;
+}
+/* ĐÂY LÀ PHẦN SLIDER */
+#slider .carousel-caption {
+	text-align: left;
+	padding-bottom: 224px;
+	width: 24%;
+}
+#slider{
+	margin-top: -20px;
+}
+#silder .careosel-inner .item img{
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+/* ĐÂY LÀ PHẦN DỊCH VỤ */
+#dich-vu{
+	background-image: url("../img/bg-dv.png");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 650px
+}
+#dich-vu .text-center{
+	margin-top: 35px;
+}
+#dich-vu .row{
+	margin-top: 55px;
+}
+#dich-vu .col-md-4 button{
+	background-color: transparent;
+	border: none;
+}
+#dich-vu .thumbnail{
+	padding: 27px;
+	height: 215px;
+}
+#dich-vu .col-md-4 button:hover{
+	color: #1771af;
+
+}
+#slider .carousel-caption button{
+	
+}
+/* ĐÂY LÀ PHẦN DỰ ÁN */
+#du-an .col-md-3 .image {
+    display: block;
+    width: 350px;
+    height: 439px;
+}
+#du-an .hover-bottom{
+    width: 350px;
+    height: 0;
+    bottom:0;
+    left:0;
+    background-color: #b5c946;
+}
+#du-an .hover-bottoml{
+    width:92%;
+    height: 0;
+    bottom:0;
+    left:0;
+    background-color: #b5c946;
+}
+#du-an .col-md-3:hover .hover-bottoml {
+    height: 439px;
+}
+  #du-an .col-md-3:hover .hover-bottom {
+  height: 439px;
+}
+#du-an .col-md-3 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+#du-an .col-md-3 .overlay {
+    position: absolute;
+    opacity: 0.6;
+    transition:all .5s ease;
+    background-color: #b5c946;
+    margin-left: 35px;
+}
+#du-an .text-center{
+	margin-top: 100px;
+}
+#du-an .row{
+	margin-top: 50px;
+}
+#du-an .carousel-indicators{
+	    bottom: -44px;
+}
+/* đây là phần đội ngu */
+#doi-ngu .col-md-3 img:hover{
+	transform: scale(1.1);
+	transition: all .5s ease 0s;
+}
+#doi-ngu .col-md-3{
+	overflow: hidden;
+}
+#doi-ngu .row{
+	margin-top: 50px;
+}
+#doi-ngu .text-center{
+	margin-top: 100px;
+}
+#danh-gia {
+	margin-top: 150px;
+}
+#doi-ngu .col-md-3 .text{
+    width: 96px;
+    margin: -65px 140px;
+    color: white
+}
+#doi-ngu .col-md-3 .text button{
+	background-color: #b5c946;
+	border: none;
+	width: 98px;
+}
+/* ĐÂY LÀ PHẦN ĐÁNH GIÁ */
+#danh-gia .thumbnail{
+	padding: 30px;
+}
+#danh-gia {
+	background-image: url("../img/bg-danhgia.png");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 360px;
+}
+.text-center p{
+	margin-top: 30px;
+}
+.text-center h1{
+	color: #113066;
+}
+
+#danh-gia .right .Thumbnail{
+	background-color: #113066;
+}
+#danh-gia .carousel-indicators {
+    bottom: -20px;
+}
+#danh-gia .col-md-6{
+	width: 45%;
+}
+#danh-gia .thumbnail{
+	margin-right: 30px;
+}
+/* ĐÂY LÀ PHẦN TIN TỨC */
+#tin-tuc .text-center{
+	margin-top: 100px;
+}
+#tin-tuc .row{
+	margin-top: 50px;
+}
+#tin-tuc .col-md-4 .thumbnail{
+	padding: 30px;
+}
+#tin-tuc .col-md-4 .thumbnail:hover{
+	 box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+	 transition: all .5s ease 0s;
+}
+/* đâu là phần đối tác */
+#doi-tac{
+	margin-top: 100px;
+}
+#doi-tac .row{
+	margin-top: 40px;
+}
+#doi-tac{
+	background-image: url("../img/bgdt.png");
+	height: 200px;
+}
+ .carousel-indicators .active{
+	background-color: #c2cd19;
+	border: none;
+}
+.carousel-indicators li{
+	background-color: #cbd359;
+	border: none;
+}
+#doi-tac .carousel-indicators{
+	    bottom: -44px;
+}
+/* DAY LA PHAN FOOTER */
+#footer{
+	margin-top: 100px;
+}
+#footer{
+	background-color: #f8f9fb;
+	height: 280px;
+}
+#footer .row{
+	margin-top: 60px;
+}
+#footer .input-group span{
+	background-color: #bfca02;
+}
